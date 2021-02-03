@@ -1,0 +1,61 @@
+* {padding: 0; margin: 0; box-sizing: 0;}
+
+.navbar-vertical {
+
+    background-color:#36b9cc;
+    background-image:linear-gradient(180deg,#36b9cc 10%,#258391);
+    background-size:cover
+}
+
+#lupa {
+
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+
+
+}
+
+
+.fila-navbar-superior i {
+
+    color: gray;
+    font-size: 20px;
+
+
+
+}
+
+img {
+
+    height: 20%;
+    width: 20%;
+
+}
+
+.borde {
+
+    border-right: 2px solid lightgray;
+
+}
+
+#collapsibleNavId i {
+
+    color: lightgray;
+
+}
+
+.navbar-nav a {
+
+    color: white;
+
+
+}
+
+#descarga {
+
+    height: 50%;
+    margin-top: 10px;
+    justify-content: flex-end;
+    
+
+}
