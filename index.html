@@ -18,8 +18,13 @@
 
 <body>
 
+  <!--Contenedor principal-->
+
   <div class="container-fluid">
     <div class="row">
+
+      <!--Navbar vertical-->
+
       <div class="col-2 pr-0 navbar-vertical">
         <div class="navbar ml-4 p-0">
           <ul class="navbar-nav">
@@ -45,9 +50,10 @@
 
 
       <div class="col-10 pl-0 pr-0">
-        <nav class="shadow navbar navbar-expand-sm navbar-light">
+        <nav class="shadow navbar navbar-expand-sm navbar-light py-4">
           <form class="form-inline my-2 mt-3 my-lg-0">
-            <input class="form-control border-0 ml-2 bg-light px-5" type="text" placeholder="Cercar...">
+            <input class="form-control input-group-append border-0 ml-2 bg-light px-4" type="text"
+              placeholder="Cercar...">
             <button id="lupa" class="btn border-0 my-0 my-sm-0 bg-info" type="submit"><i
                 class="fa fa-search"></i></button>
           </form>
@@ -74,12 +80,119 @@
             </ul>
           </div>
         </nav>
-        <div class="row ml-lg-3 mt-4 justify-content-between no-gutters">
-        <h1>Inici</h1>
-        <a href="#" id="descarga" class="d-none mr-3 d-sm-inline-block btn btn-sm btn-info"><i
-          class="fa fa-download fa-sm text-white-50"></i> Generate Report</a>
-  
-      </div>
+
+
+        <div class="container-fluid">
+          <div class="col-12 mt-2">
+            <div class="row mt-5 mb-3 justify-content-between no-gutters">
+              <h1>Inici</h1>
+              <a href="#" id="descarga" class="d-none d-sm-inline-block btn btn-sm btn-info p-2"><i
+                  class="fa fa-download mr-1"></i>Descarrega informe</a>
+            </div>
+            <div class="card shadow">
+              <div class="card-header py-4">
+                <a class="px-2" href="">Informació</a>
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center mt-5">
+                  <div class="col-6 text-center">
+                    <img class="mx-auto d-block" src="/img/informe.svg" alt="informe">
+                    <h2 class="mt-5">Tens nous informes!</h2>
+                    <h4 class="mb-3 mt-3">Accedeix <a href="#">açí</a> per personalitzar-los, filtrar-los i
+                      descarregar-te'ls</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row px-3 pt-4 mt-2">
+            <div class="col-6">
+              <div class="card w-100 shadow">
+                <div class="card-header py-4">
+                  <a class="px-2" href="">Coses a fer</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item py-4">Reunió Conselleria<input class="mx-auto alig-items-right"
+                      type="checkbox"></li>
+                  <li class="list-group-item py-4">Reunió BBVA<input class="ml-auto" type="checkbox"></li>
+                  <li class="list-group-item py-4">Seminari BlockChain<input class="ml-auto" type="checkbox"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 pl-4">
+              <div class="row">
+                <div class="col-6">
+                  <div class="card text-white bg-primary mb-3 w-100">
+                    <div class="card-body">
+                      <h5 class="card-title ml-2 mt-2">API Rest ITV</h5>
+                      <p class="card-text ml-2 mt-2">60%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 pl-4">
+                  <div class="card text-white bg-success mb-3 w-100">
+                    <div class="card-body">
+                      <h5 class="card-title ml-2 mt-2">Alta productes online</h5>
+                      <p class="card-text ml-2 mt-2">Completat</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-4">
+                  <div class="card text-white bg-info mb-3 w-100">
+                    <div class="card-body">
+                      <h5 class="card-title ml-2 mt-2">Pasarel·la pagament</h5>
+                      <p class="card-text ml-2 mt-2">80%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 pl-4 mt-4">
+                  <div class="card text-white bg-warning mb-3 w-100">
+                    <div class="card-body">
+                      <h5 class="card-title ml-2 mt-2">JSON Conselleria</h5>
+                      <p class="card-text ml-2 mt-2">40%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 mt-4">
+                  <div class="card text-white bg-danger mb-3 w-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Intranet BBVA</h5>
+                      <p class="card-text">20%</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 pl-4 mt-4">
+                  <div class="card text-white bg-secondary mb-3 w-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Informació projectes</h5>
+                      <p class="card-text">%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="card w-100 shadow">
+                <div class="card-header py-4">
+                  <a class="px-2" href="">Projectes</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item py-4">Reunió Conselleria<input class="mx-auto alig-items-right"
+                      type="checkbox"></li>
+                  <li class="list-group-item py-4">Reunió BBVA<input class="ml-auto" type="checkbox"></li>
+                  <li class="list-group-item py-4">Seminari BlockChain<input class="ml-auto" type="checkbox"></li>
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>

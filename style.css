@@ -25,11 +25,17 @@
 
 }
 
-img {
+.fila-navbar-superior a {
+
+    font-size: 14px;
+
+}
+
+
+li[class="nav-item"] img {
 
     height: 20%;
     width: 20%;
-
 }
 
 .borde {
