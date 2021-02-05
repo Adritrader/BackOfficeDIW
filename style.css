@@ -16,6 +16,28 @@ body {
 #calendar {
 
     font-size: 40px;
+    color: gray;
+
+}
+
+#euro-sign {
+
+    font-size: 40px;
+    color: gray;
+
+}
+
+#clipboard {
+
+    font-size: 40px;
+    color: gray;
+
+}
+
+#xat {
+
+    font-size: 40px;
+    color: gray;
 
 }
 
@@ -124,6 +146,13 @@ li[class="nav-item"] img {
 
     border-radius: 5px;
     border-left: 5px solid #17A2B8;
+
+}
+
+.missatges-xat {
+
+    border-radius: 5px;
+    border-left: 5px solid #ffc107;
 
 }
 
