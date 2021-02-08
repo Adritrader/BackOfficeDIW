@@ -14,6 +14,7 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 </head>
 
 <body>
@@ -25,32 +26,35 @@
 
       <!--Navbar vertical-->
 
-      <div class="col-2 pr-0 navbar-vertical">
+      <div class="col-1 col-xl-2 pr-0 navbar-vertical">
         <div class="navbar ml-4 p-0">
           <ul class="navbar-nav">
-            <a class="nav-link mb-3" href="#"><i class="fa fa-cubes mr-1"></i>DISSENY INTERFICIES</a>
+            <a class="nav-link mb-3 titulo" href="#"><i class="fa fa-cubes mr-1"></i>DISSENY INTERFICIES</a>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-tachometer"></i>Inici</a>
+              <a class="nav-link" href="#"><i class="fa fa-tachometer px-1"></i>Inici</a>
             </li>
             <li class="nav-item mt-3">
-              <a class="nav-link" href="#"><i class="fa fa-user"></i>Perfil</a>
+              <a class="nav-link" href="#"><i class="fa fa-user px-1"></i>Perfil</a>
             </li>
             <li class="nav-item mt-3">
-              <a class="nav-link" href="#"><i class="fa fa-table"></i>Equip</a>
+              <a class="nav-link" href="#"><i class="fa fa-table px-1"></i>Equip</a>
             </li>
             <li class="nav-item mt-4">
-              <a class="nav-link" href="#"><i class="far fa-user-circle"></i>Login</a>
+              <a class="nav-link" href="#"><i class="far fa-user-circle px-1"></i>Login</a>
             </li>
             <li class="nav-item mt-4">
-              <a class="nav-link" href="#"><i class="fa fa-user-circle"></i>Nou usuari</a>
+              <a class="nav-link" href="#"><i class="fa fa-user-circle px-1"></i>Nou usuari</a>
             </li>
           </ul>
         </div>
       </div>
 
+      
+
+      <!--Navbar horizontal-->
 
       <div class="col-10 pl-0 pr-0">
-        <nav class="shadow navbar navbar-expand-sm navbar-light py-4">
+        <nav class="shadow navbar navbar-expand-lg navbar-light py-4">
           <form class="form-inline my-2 mt-3 my-lg-0">
             <input class="form-control input-group-append border-0 ml-2 bg-light px-4" type="text"
               placeholder="Cercar...">
@@ -58,29 +62,32 @@
                 class="fa fa-search"></i></button>
           </form>
 
-          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
+          
+
           <div class="collapse navbar-collapse fila-navbar-superior d-flex justify-content-end" id="collapsibleNavId">
             <ul class="navbar-nav mt-2 ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-bell" data-toggle="collapse" data-target="#notificacionId"></i><span class="sr-only"></span><span
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#"><i class="fa fa-bell"></i><span class="sr-only"></span><span
                     class="badge badge-pill badge-danger">3+</span></span></a>
-                  
+
 
               </li>
               <li class="nav-item borde">
-                <a class="nav-link" href="#"><i class="fa fa-envelope"></i><span class="sr-only"></span><span
+                <a class="nav-link dropdown" href="#"><i class="fa fa-envelope"></i><span class="sr-only"></span><span
                     class="badge badge-pill badge-danger">12+</span></span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">Sonia Sendra<img
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" aria-haspopup="true" aria-expanded="false">Sonia Sendra<img
                     class="rounded-circle ml-2" src="img/avatar1.jpeg" alt="avatar1"></a>
               </li>
             </ul>
           </div>
+
         </nav>
 
 
@@ -93,7 +100,7 @@
             </div>
             <div class="card shadow">
               <div class="card-header py-4">
-                <a class="px-2" href="">Informació</a>
+                <a class="px-2 titulo-header" href="">Informació</a>
               </div>
               <div class="card-body">
                 <div class="row justify-content-center mt-5">
@@ -110,27 +117,27 @@
         </div>
         <div class="container-fluid">
           <div class="row px-3 pt-4 mt-2 justify-content-center">
-            <div class="col-6">
+            <div class="col-xl-6 col-12">
               <div class="card w-100 shadow">
                 <div class="card-header py-4">
-                  <a class="px-2" href="">Coses a fer</a>
+                  <a class="px-2 titulo-header" href="">Coses a fer</a>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item card-title py-3">Reunió Conselleria<input class="float-right"
+                  <li class="list-group-item card-title py-3">Reunió Conselleria<input class="float-right mt-3"
                       type="checkbox">
                     <p>10:00</p>
                   </li>
-                  <li class="list-group-item  card-title py-3">Reunió BBVA<input class="float-right" type="checkbox">
+                  <li class="list-group-item  card-title py-3">Reunió BBVA<input class="float-right mt-3" type="checkbox">
                     <p>11:30</p>
                   </li>
-                  <li class="list-group-item card-title py-3">Seminari BlockChain<input class="float-right"
+                  <li class="list-group-item card-title py-3">Seminari BlockChain<input class="float-right mt-3"
                       type="checkbox">
                     <p>12:30</p>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-6 pl-4">
+            <div class="col-xl-6 col-12 pl-4">
               <div class="row">
                 <div class="col-6">
                   <div class="card text-white bg-primary mb-3 w-100">
@@ -185,17 +192,17 @@
 
             <!--Card Projectes-->
 
-            <div class="col-6 mr-auto">
+            <div class="col-xl-6 col-12 mr-auto">
               <div class="card w-100 shadow">
                 <div class="card-header py-4">
-                  <a class="px-2" href="">Projectes</a>
+                  <a class="px-2 titulo-header" href="">Projectes</a>
                 </div>
                 <ul class="list-group list-group-flush list-unstyled px-2">
 
                   <li class="px-4 py-4">Intranet BBVA<span class="float-right">20%</span>
                     <div class="progress barra-progreso mt-2">
                       <div class="progress-bar bg-danger" style="width: 20%;">
-                    </div>
+                      </div>
                   </li>
 
                   <li class="px-4 py-4">Integració JSON Conselleria<span class="float-right">40%</span>
@@ -224,13 +231,13 @@
 
             <!--Fin Card Projectes-->
 
-            <div class="col-5 mr-auto py-3 no-gutters">
+            <div class="col-12 col-xl-5 mr-auto py-3 no-gutters">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-12">
                     <div class="card w-100">
                       <div class="card-header py-4">
-                        <a class="px-2" href="">Millor client</a>
+                        <a class="px-2 titulo-header" href="">Millor client</a>
                       </div>
                       <img class="card-img-top" src="img/fons.jpg" alt="Card image cap">
                       <div class="card-body">
@@ -261,7 +268,7 @@
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-12 text-center mt-4">
+                          <div class="col-xl-12 col-12 text-center mt-4">
                             <h1 class="font-weight-lighter"><strong>Pere Roig,</strong>&nbsp;27 anys</h1>
                             <h5>Pego, Alacant</h5>
                             <h4 class="py-4 font-weight-bold">Desenvolupador Web - DIW S.L.</h4>
@@ -276,9 +283,9 @@
             </div>
           </div>
 
-          <div class="container-fluid">
+          <div class="container-fluid tarjetas">
             <div class="row">
-              <div class="col-3">
+              <div class="col-12 col-xl-3">
                 <div class="card shadow mb-3 w-100">
                   <div class="card-body ventas-mes">
                     <h5 class="card-title mt-3 mb-0 pl-3 text-primary">VENDES (MES)</h5>
@@ -287,42 +294,43 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-12 col-xl-3">
                 <div class="card shadow mb-3 w-100">
                   <div class="card-body ventas-anual">
                     <h5 class="card-title mt-3 mb-0 pl-3 text-success">VENDES (ANUALS)</h5>
-                    <i class="fas fa-euro-sign"></i>
+                    <i class="fas fa-euro-sign float-right" id="euro-sign"></i>
                     <h3 class="pb-4 pl-3">355.000€</h3>
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-12 col-xl-3">
                 <div class="card shadow mb-3 w-100">
-                  <div class="card-body tasques">
+                  <div class="card-body tasques p-3">
                     <div class="row">
-                      <div class="col-4 mx-0 px-0">
-                        <h5 class="card-title mt-3 mx-2 text-info no-gutters">TASQUES</h5>
-                        <h3 class="text-secondary mb-3 pl-3">50%</h3>
+                      <div class="col-6 mx-0 px-0">
+                        <h5 class="card-title ml-1 mt-2 text-info no-gutters">TASQUES</h5>
+                        <h3 class="text-secondary pl-3">50%</h3>
                       </div>
-                      <div class="col-4 py-3">
+                      <div class="col-3 px-0 py-5">
                         <div class="progress">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                       </div>
-                      <div class="col-4">
-                        <i class="fa fa-calendar float-right"></i>
+                      <div class="col-2 ml-3">
+                        <i class="fas fa-clipboard-list mt-5 pr-0 float-right" id="clipboard"></i>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-12 col-xl-3">
                 <div class="card shadow mb-3 w-100">
-                  <div class="card-body ventas">
-                    <h5 class="card-title mt-5 mb-0 pl-3 text-primary">VENDES (MES)</h5>
-                    <i class="fa fa-calendar float-right"></i>
-                    <h3 class="text-secondary pb-4 pl-3">50.000€</h3>
+                  <div class="card-body missatges-xat p-4">
+                    <h5 class="card-title mt-2 mb-0 pl-3 text-warning">MISSATGES XAT</h5>
+                    <i class="fas fa-comments float-right" id="xat"></i>
+                    <h3 class="text-secondary mb-4 pl-3">14</h3>
                   </div>
                 </div>
               </div>
@@ -333,143 +341,137 @@
 
         <div class="container-fluid">
           <div class="row mt-3">
-            <div class="col-8">
+            <div class="col-xl-8 col-12">
               <div class="card w-100">
                 <div class="card-header">
-                  Featured
+                  <a class="titulo-header" href="">Evolució de vendes</a>
                 </div>
-                <div class="card-body"> 
+                <div class="card-body">
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
                   <canvas id="myChart"></canvas>
                   <script>
-                    
                     var ctx = document.getElementById('myChart').getContext('2d');
                     var myChart = new Chart(ctx, {
-                        type: 'line',
-                        data: {
-                            labels: ['Gener', 'Febrer', 'Març', 'Abril', 'Maig', 'Juny', 'Juliol', 'Agost', 'Setembre', 'Octubre', 'Novembre', 'Desembre'],
-                            datasets: [{
-                                label: '# of Votes',
-                                data: [10000, 5000, 15000, 12000, 5000, 15000, 10000, 5000, 15000, 12000, 5000, 15000],
-                                backgroundColor: [
-                                    'rgba(255, 99, 132, 0.2)',
-                                    'rgba(54, 162, 235, 0.2)',
-                                    'rgba(255, 206, 86, 0.2)',
-                                    'rgba(75, 192, 192, 0.2)',
-                                    'rgba(153, 102, 255, 0.2)',
-                                    'rgba(255, 159, 64, 0.2)'
-                                ],
-                                borderColor: [
-                                    'rgba(255, 99, 132, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                    'rgba(255, 206, 86, 1)',
-                                    'rgba(75, 192, 192, 1)',
-                                    'rgba(153, 102, 255, 1)',
-                                    'rgba(255, 159, 64, 1)'
-                                ],
-                                borderWidth: 1
-                            }]
+                      type: 'line',
+                      data: {
+                        labels: ['Gener', 'Febrer', 'Març', 'Abril', 'Maig', 'Juny', 'Juliol', 'Agost', 'Setembre',
+                          'Octubre', 'Novembre', 'Desembre'
+                        ],
+                        datasets: [{
+                          label: '# of Votes',
+                          data: [10000, 5000, 15000, 12000, 5000, 15000, 10000, 5000, 15000, 12000, 5000,
+                            15000],
+                          backgroundColor: [
+                            'rgba(246, 248, 254, 1)',
+                            'rgba(246, 248, 254, 1)',
+                            'rgba(246, 248, 254, 1)',
+                            'rgba(246, 248, 254, 1)',
+                            'rgba(246, 248, 254, 1)',
+                            'rgba(246, 248, 254, 1)'
+                          ],
+                          borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                          ],
+                          borderWidth: 1
+                        }]
+                      },
+                      options: {
+                        scales: {
+                          yAxes: [{
+                            ticks: {
+                              beginAtZero: true
+                            }
+                          }]
                         },
-                        options: {
-                            scales: {
-                                yAxes: [{
-                                    ticks: {
-                                        beginAtZero: true
-                                    }
-                                }]
-                            },
-                            
-                        }
+
+                      }
                     });
-                    </script>
-                  
-                  
+                  </script>
+
+
                 </div>
               </div>
             </div>
-            <div class="col-4 pl-4">
+            <div class="col-xl-4 col-12 pl-4">
               <div class="card w-100">
                 <div class="card-header">
-                  Featured
+                  <a class="titulo-header" href="">Font ingresos</a>
                 </div>
                 <div class="card-body">
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-                  
+
                   <canvas id="myChart2"></canvas>
                   <script>
                     var ctx = document.getElementById('myChart2').getContext('2d');
                     var myChart = new Chart(ctx, {
-                        type: 'doughnut',
-                        data: {
-                            labels: ['Directe', 'RRSS', 'Online'],
-                            datasets: [{
-                                label: '# of Votes',
-                                data: [10000, 5000, 15000],
-                                backgroundColor: [
-                                    'rgba(255, 99, 132, 0.2)',
-                                    'rgba(54, 162, 235, 0.2)',
-                                    'rgba(255, 206, 86, 0.2)',
-                                    'rgba(75, 192, 192, 0.2)',
-                                    'rgba(153, 102, 255, 0.2)',
-                                    'rgba(255, 159, 64, 0.2)'
-                                ],
-                                borderColor: [
-                                    'rgba(255, 99, 132, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                    'rgba(255, 206, 86, 1)',
-                                    'rgba(75, 192, 192, 1)',
-                                    'rgba(153, 102, 255, 1)',
-                                    'rgba(255, 159, 64, 1)'
-                                ],
-                                borderWidth: 1
-                            }]
+                      type: 'doughnut',
+                      data: {
+                        labels: ['Directe', 'RRSS', 'Online'],
+                        datasets: [{
+                          label: '# of Votes',
+                          data: [10000, 5000, 15000],
+                          backgroundColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(246, 248, 254, 0.2)',
+                            'rgba(246, 248, 254, 0.2)',
+                            'rgba(246, 248, 254, 0.2)'
+                          ],
+                          borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                          ],
+                          borderWidth: 1
+                        }]
+                      },
+                      options: {
+                        scales: {
+                          yAxes: [{
+                            ticks: {
+                              beginAtZero: true
+                            }
+                          }]
                         },
-                        options: {
-                            scales: {
-                                yAxes: [{
-                                    ticks: {
-                                        beginAtZero: true
-                                    }
-                                }]
-                            },
-                            
-                        }
+
+                      }
                     });
-                    </script>
-                  
-                  
+                  </script>
+
+
                 </div>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <footer class="shadow text-center mt-3 py-3">
-                  <h5>@ Disseny d'Interficies Web 2020-2021</h5>
-                </footer>
               </div>
             </div>
           </div>
         </div>
-        
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 px-0">
+              <footer class="shadow text-center mt-3 py-3">
+                <h5>@ Disseny d'Interficies Web 2020-2021</h5>
+              </footer>
+            </div>
+          </div>
+        </div>
       </div>
-      
+
     </div>
-      </div>
-      
-    </div>
+
+  </div>
   </div>
 
-
-
-
-
-
-
-
+  </div>
+  </div>
 
 
 
